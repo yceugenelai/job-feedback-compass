@@ -1,3 +1,4 @@
+<!-- Template for agents: translate headings, labels and instructions into the user's output language (see AGENTS.md); do not copy both languages by default. Preserve actual queries, URLs, IDs and job information. Examples: Japanese「検索ログ」; English “Search log”; Traditional Chinese「搜尋紀錄」. -->
 # Search log / 検索ログ — YYYY-MM-DD_NN / agent-id
 
 - Requirements version / 使用した条件: requirements_clarified.md (status: / confirmed_at:)

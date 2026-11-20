@@ -5,7 +5,7 @@ What people say they want (stated preference) and how they actually react (revea
 ## Collecting feedback
 
 Feedback arrives in two ways:
-- **Written in files**: the user writes under "Your feedback" in a recommendation file (`workspace/agents/<agent-id>/recommendations/*.md`). Blocks marked `<!-- status: pending -->` that contain text are unprocessed. After recording, change the marker to `<!-- status: processed YYYY-MM-DD agent-id -->`. Check **all agents'** recommendation files, not only your own (reading is allowed; changing the status marker is the only edit you make there).
+- **Written in files**: the user writes in the feedback section of a recommendation file (`workspace/agents/<agent-id>/recommendations/*.md`). The section heading can be localized (e.g. "Your feedback", 「あなたの感想」, 「你的感想」); identify blocks by their unchanged status markers rather than requiring a particular heading. Blocks marked `<!-- status: pending -->` that contain text are unprocessed. After recording, change the marker to `<!-- status: processed YYYY-MM-DD agent-id -->`. Check **all agents'** recommendation files, not only your own (reading is allowed; changing the status marker is the only edit you make there).
 - **In conversation**: the user simply talks about a position.
 
 If the feedback is short or vague, ask 1–2 follow-up questions, for example:

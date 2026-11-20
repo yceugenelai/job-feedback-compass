@@ -1,3 +1,4 @@
+<!-- Template for agents: translate all headings, labels and instructions into the user's output language (see AGENTS.md); do not copy both languages by default. Keep job information in its original language, and keep IDs, paths and status markers unchanged. Examples: Japanese「あなたの感想」; English “Your feedback”; Traditional Chinese「你的感想」. -->
 # Recommendations / 推薦リスト — YYYY-MM-DD / agent-id
 
 - From search / 元の検索: searches/YYYY-MM-DD_NN.md

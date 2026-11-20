@@ -62,7 +62,7 @@ Exclude, or clearly flag concerns on the card, when:
 ## Language
 
 - Job information (company, title, description, conditions) **stays in the original language**.
-- Your reasons, concerns and analysis use the user's conversation language.
+- Use the output language specified by the user for recommendations or logs; otherwise follow the current conversation language, as described in `AGENTS.md`. Apply it to headings, table labels, instructions, feedback prompts, reasons, concerns and search logs as well as analysis. Translate template labels when generating a file, without changing identifiers or feedback status markers.
 
 ## Limits
 

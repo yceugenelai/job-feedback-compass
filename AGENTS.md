@@ -29,7 +29,8 @@ The user speaks naturally (any language). Detect the intent and follow the match
 
 ## Language
 
-- Talk to the user in **the language they use**, unless `workspace/profile/requirements.md` says otherwise. Notes you write (summaries, analysis, reasons) use the same language.
+- Use the user's explicitly requested output language, if any (including a preference in `workspace/profile/requirements.md`); otherwise use the language of the current conversation. A request for a particular output overrides an older saved preference for that output. Do not infer the language from the app's UI or from the template.
+- Apply that language to agent-written text in generated files, including titles, section headings, table labels, instructions, feedback prompts, search logs, summaries, reasons and analysis. Adapt template labels instead of copying bilingual labels verbatim. Preserve the user's own words, existing records, identifiers, paths, TSV headers and status markers.
 - Keep job information (company name, title, description, conditions) **in its original language**. Do not translate it.
 
 ## Directory map
